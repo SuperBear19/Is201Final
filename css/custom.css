@@ -1,4 +1,46 @@
 
-body{
-    color:red
+h1 {
+    font-size: 36px; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(55, 55, 55);
 }
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+    text-align: left;
+}
+
+body {
+    background-color:azure;
+    color:rgb(68, 19, 19) ;
+    text-align: center;
+    
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+       
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.centered-list {
+    display:flexbox;
+    margin: 0 auto;
+    text-align: left; 
+    padding-left: 20px; 
